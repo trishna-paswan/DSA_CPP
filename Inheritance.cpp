@@ -104,3 +104,35 @@ int main(){
     cout << s1.subject << endl;
     return 0;
 }
+
+// HIERARCHIAL INHERITANCE
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person{
+    public:
+    string name;
+    int AGE;
+};
+
+class Student : public Person {
+    public:
+    int rollno;
+};
+
+class Teacher : public Person{
+    public:
+    string subject;
+};
+
+int main(){
+    Teacher s1;
+    s1.name = "Tony Star";
+    s1.subject = "Physics";
+
+    cout << s1.name << endl;
+    cout << s1.subject << endl;
+    return 0;
+}
