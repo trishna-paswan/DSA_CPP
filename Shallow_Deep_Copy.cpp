@@ -19,6 +19,12 @@ public:
         *cgpaPtr = *obj.cgpaPtr; // DEEP COPY 
     }
 
+    // DECONSTRUCTOR 
+    ~Student(){
+        cout << "Hi! I delete everything" << endl;
+        delete cgpaPtr; // FOR POINTERS
+    }
+
     void getInfo(){
         cout << "name : " << name << endl;
         cout << "cgpa : " << *cgpaPtr << endl;
