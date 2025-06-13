@@ -72,3 +72,35 @@ int main(){
     cout << s1.research << endl;
     return 0;
 }
+
+// MULTIPLE INHERITANCE
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student {
+    public:
+    string name;
+    int rollno;
+};
+
+class Teacher {
+    public:
+    string subject;
+    double salary;
+};
+
+class TA : public Student, public Teacher {
+
+};
+
+int main(){
+    TA s1;
+    s1.name = "Tony Star";
+    s1.subject = "Physics";
+
+    cout << s1.name << endl;
+    cout << s1.subject << endl;
+    return 0;
+}
