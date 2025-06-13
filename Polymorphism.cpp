@@ -48,3 +48,65 @@ int main(){
     return 0;
 }
 
+// FUNCTION OVERRIDING -> RUN TIME POLYMORPHISM
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Parent {
+public:
+    void Show(){
+        cout << "Parent \n" << endl;
+
+    }
+};
+
+class Child : public Parent {
+    public:
+    void Show(){
+        cout << "Child \n" << endl;
+    }
+};
+
+int main(){
+    Child p1;
+    p1.Show();
+    return 0;
+}
+
+// VIRTUAL FUNCTION -> RUN TIME POLYMORPHISM
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Parent {
+public:
+    void Show(){
+        cout << "Parent \n" << endl;
+
+    }
+
+    virtual void Hello(){
+        cout << "Hello from Parent" << endl;
+
+    }
+};
+
+class Child : public Parent {
+    public:
+    void Show(){
+        cout << "Child \n" << endl;
+    }
+    void Hello(){
+        cout << "Hello from Child" << endl;
+
+    }
+};
+
+int main(){
+    Child p1;
+    p1.Hello();
+    return 0;
+}
