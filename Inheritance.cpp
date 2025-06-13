@@ -1,3 +1,4 @@
+// SINGLE LEVEL INHERITANCE
 #include <iostream>
 #include <string>
 using namespace std;
@@ -37,5 +38,37 @@ int main(){
     // s1.rollno = 1234;
 
     s1.getInfo();
+    return 0;
+}
+
+// MULTILEVEL INHERITANCE
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person{
+public:
+    string name;
+    int age;
+};
+
+class Student : public Person {
+    public:
+    int rollno;
+};
+
+class GradStudent : public Student{
+    public:
+    string research;
+};
+
+int main(){
+    GradStudent s1;
+    s1.name = "Tony Star";
+    s1.research = "Physics";
+
+    cout << s1.name << endl;
+    cout << s1.research << endl;
     return 0;
 }
