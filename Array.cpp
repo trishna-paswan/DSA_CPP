@@ -13,6 +13,16 @@ int main(){
 
     // index value is : 0 to size-1
     cout << marks[0] << endl;
+    
+    // Size in memory
+    int sz = sizeof(marks);
 
+    // Find Size
+    int s = sizeof(marks) / sizeof(int);
+
+    // Loops : 0 to size-1
+    for(int i=0; i<s; i++){
+        cout << marks[i] << endl;
+    }
     return 0;
 }
