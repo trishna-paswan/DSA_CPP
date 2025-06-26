@@ -24,5 +24,25 @@ int main(){
     for(int i=0; i<s; i++){
         cout << marks[i] << endl;
     }
+
+    // Largest value in an ARRAY
+    int nums[] = {5, 15, 22, 1, -15, 24};
+    int size = 6;
+    int largest = INT_MIN;
+    for(int i=0; i<size; i++){
+        // max in-buil function
+        largest = max(nums[i], largest);
+    }
+    cout << "Maximum = " << largest << endl;
+
+    // smallest value in an ARRAY
+    int nums[] = {5, 15, 22, 1, -15, 24};
+    int size = 6;
+    int smallest = INT_MAX;
+    for(int i=0; i<size; i++){
+        // min in-buil function
+        smallest = min(nums[i], smallest);
+    }
+    cout << "Minimum = " << smallest << endl;
     return 0;
 }
