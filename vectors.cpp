@@ -24,3 +24,28 @@ int main() {
     }
     return 0;
 }
+// VECTOR FUNCTIONS
+
+#include <iostream>
+#include <vector>     // Header file for vector to be imported.
+using namespace std;
+
+int main() {
+    vector<int> vec = {1,2};  
+
+    // Size of a vector
+    cout << "size = " << vec.size() << endl;
+
+    // PUSH_BACK
+    vec.push_back(25);
+    cout << "After pushback size = " << vec.size() << endl;
+
+    // POP_BACK
+    vec.pop_back();
+    
+     // for each loop
+    for(int val : vec){
+        cout << val << endl; // all the values of vector are printed
+    }
+    return 0;
+}
