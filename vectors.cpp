@@ -12,3 +12,15 @@ int main() {
     cout << vec[2] << endl;
     return 0;
 }
+#include <iostream>
+#include <vector>     // Header file for vector to be imported.
+using namespace std;
+
+int main() {
+    vector<char> vec = {'a','b','c','d'};  
+    // for each loop
+    for(char val : vec){
+        cout << val << endl; // all the values of vector are printed
+    }
+    return 0;
+}
