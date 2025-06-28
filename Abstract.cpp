@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class Shape {   // Abstract class -> couldn't make a obj of this class
+class Shape {   // Abstract class -> couldn't make a obj of this class 
     virtual void draw() = 0; // Pure virtual function
 };
 
