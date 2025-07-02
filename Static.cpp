@@ -1,4 +1,4 @@
-// STATIC KEYWORD -> Function 
+// STATIC KEYWORD -> Function  
 
 #include <iostream>
 #include <string>
