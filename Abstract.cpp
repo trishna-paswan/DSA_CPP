@@ -8,6 +8,7 @@ class Shape {   // Abstract class -> couldn't make a obj of this class
 };
 
 class Circle : public Shape {
+
     public:
     void draw(){ 
         cout << "Drawing a circle \n" << endl;
