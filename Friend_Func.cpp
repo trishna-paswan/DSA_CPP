@@ -3,7 +3,7 @@ using namespace std;
 
 class Box {
 private:
-    int length;
+    int length; 
 
 public:
     Box() : length(0) {}
