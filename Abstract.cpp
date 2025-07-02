@@ -1,6 +1,6 @@
 // ABSTRACT CLASSES  
 #include <iostream>
-#include <string>
+#include <string> 
 using namespace std;
 
 class Shape {   // Abstract class -> couldn't make a obj of this class 
