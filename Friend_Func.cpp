@@ -12,7 +12,7 @@ public:
     friend void setLength(Box &b, int l);
 };
 
-// Friend function definition
+    // Friend function definition
 void setLength(Box &b, int l) {
     b.length = l;  // Accessing private member
     cout << "Length is set to: " << b.length << endl;
