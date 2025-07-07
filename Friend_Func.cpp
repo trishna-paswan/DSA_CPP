@@ -7,7 +7,6 @@ private:
 
 public:
     Box() : length(0) {}
-
     // Declare friend function
     friend void setLength(Box &b, int l);
 };
