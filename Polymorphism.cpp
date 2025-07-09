@@ -9,7 +9,7 @@ class Student {
 
     string name;
 
-    Student(){
+    Student(){  
         cout << "non-parameterised\n";
     }
 
