@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Box {
+class Box { 
 private:
     int length; 
 
