@@ -114,6 +114,23 @@ public:
         }
         cout << "NULL" << endl;
     }
+
+    // SEARCH A ELEMENT
+    int search(int key){
+        Node* temp = head;
+        int ind = 0;
+
+        while ( temp != NULL){
+            if(temp -> data == key){
+                return ind;
+            }
+
+            temp = temp -> next;
+            ind++;
+        }
+
+        return -1;
+    }
 };
 
 int main(){
@@ -134,6 +151,8 @@ int main(){
 
     ll.insert(4,0);
     ll.printll();
+
+    cout << ll.search(4) << endl;
     
     return 0;
 }
