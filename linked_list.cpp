@@ -78,6 +78,28 @@ public:
         tail = temp;
     }
 
+    // INSERTION AT A SPECIFIC INDEX
+    void insert(int val, int pos){
+        if(pos < 0) {
+            cout << "Invalid" << endl;
+            return;
+        }
+        if(pos == 0){
+            push_front(val);
+            return;
+        }
+
+        Node* temp = head;
+        for(int i=0; i< pos-1 ; i++){
+            temp = temp -> next;
+        }
+
+        Node* newNode = new Node(val);
+        newNode -> next = temp -> next;
+        temp -> next = newNode;
+    }
+
+
     // PRINT THE LINKED LIST
     void printll(){
         Node* temp = head;
@@ -106,5 +128,8 @@ int main(){
     ll.pop_back();
     ll.printll();
 
+    ll.insert(4,0);
+    ll.printll();
+    
     return 0;
 }
