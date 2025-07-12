@@ -49,6 +49,20 @@ public:
         }
     }
 
+    // POP FRONT FUNCTION
+    void pop_front (){
+        if(head == NULL){
+            cout << "LL is empty\n";
+            return;
+        }
+
+        Node* temp = head;
+        head = head -> next;
+        temp -> next = NULL;
+
+        delete temp;
+    }
+
     // PRINT THE LINKED LIST
     void printll(){
         Node* temp = head;
@@ -68,6 +82,9 @@ int main(){
     ll.push_front(2);
     ll.push_front(3);  
     ll.push_back(4);  
+
+    ll.pop_front();
+
     ll.printll();
     return 0;
 }
