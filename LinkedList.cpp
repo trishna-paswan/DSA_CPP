@@ -8,7 +8,7 @@ struct Node {
     Node* next;
 };
 
-// Head pointer to the linked list
+// Head pointer to the linked list 
 Node* head = NULL; 
 
 // Function to insert at beginning
