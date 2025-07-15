@@ -9,7 +9,7 @@ struct Node {
 };
 
 // Head pointer to the linked list
-Node* head = NULL;
+Node* head = NULL; 
 
 // Function to insert at beginning
 void insertAtBeginning(int value) {
