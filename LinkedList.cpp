@@ -23,7 +23,7 @@ void insertAtBeginning(int value) {
 // Function to insert at end
 void insertAtEnd(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
-    newNode->data = value;
+    newNode->data = value; 
     newNode->next = NULL;
 
     if (head == NULL) {
