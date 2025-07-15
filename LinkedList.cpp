@@ -20,7 +20,7 @@ void insertAtBeginning(int value) {
     cout << value << " inserted at the beginning.\n";
 }
 
-// Function to insert at end
+// Function to insert at end 
 void insertAtEnd(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = value; 
