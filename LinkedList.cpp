@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <cstdlib> // For malloc and free
 using namespace std;
+
 // Define Node structure
 struct Node {
     int data;
