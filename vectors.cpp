@@ -8,7 +8,7 @@ int main() {
     
     vector<int> vec (3,0);  //output, 0 value for 3 size vector
     cout << vec[0] << endl;
-    cout << vec[1] << endl;
+    cout << vec[1] << endl; 
     cout << vec[2] << endl;
     return 0;
 }
