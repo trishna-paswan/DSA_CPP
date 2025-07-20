@@ -26,7 +26,7 @@ int main() {
 }
 // VECTOR FUNCTIONS
 
-#include <iostream>
+#include <iostream> 
 #include <vector>     // Header file for vector to be imported.
 using namespace std;
 
