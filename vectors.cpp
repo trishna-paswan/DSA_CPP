@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>     // Header file for vector to be imported.
 using namespace std;
-
+ 
 int main() {
     vector<int> vec = {1,2,3};  
     cout << vec[0] << endl;
