@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 class CircularQueue {
-    int* arr;
+    int* arr; 
     int front, rear, size, capacity;
 public:
     CircularQueue(int cap) {
