@@ -1,5 +1,5 @@
 
-// This code implements a circular queue with basic operations like enqueue, dequeue, peek, and display.
+// This code implements a circular queue with basic operations like enqueue, dequeue, peek, and display. 
 // It uses an array to store the elements and manages the front and rear indices to allow circular behavior.
 // The main function demonstrates the usage of the CircularQueue class by performing various operations and displaying the queue's state.
 // The CircularQueue class provides a simple and efficient way to manage a fixed-size queue with wrap-around behavior.
