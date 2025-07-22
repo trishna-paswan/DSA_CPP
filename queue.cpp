@@ -12,7 +12,7 @@ public:
     int data;
     Node* next;
 
-    Node(int val) {
+    Node(int val) { 
         data = val;
         next = NULL;
     }
