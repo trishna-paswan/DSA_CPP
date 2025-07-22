@@ -7,7 +7,7 @@
  
 #include <iostream>
 using namespace std;
-class CircularQueue {
+class CircularQueue { 
     int* arr; 
     int front, rear, size, capacity;
 public:
