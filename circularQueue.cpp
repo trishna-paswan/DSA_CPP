@@ -4,7 +4,7 @@
 // The main function demonstrates the usage of the CircularQueue class by performing various operations and displaying the queue's state.
 // The CircularQueue class provides a simple and efficient way to manage a fixed-size queue with wrap-around behavior.
 // The code includes error handling for full and empty queue conditions, ensuring robust operation.
-
+ 
 #include <iostream>
 using namespace std;
 class CircularQueue {
