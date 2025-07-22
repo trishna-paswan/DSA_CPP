@@ -1,7 +1,7 @@
 /* Description: Implementation of a queue using a linked list in C++
 This code implements a simple queue using a linked list in C++. 
 It includes methods to enqueue, dequeue, peek at the front element, and check if the queue is empty. 
-The main function demonstrates the usage of the queue. */
+The main function demonstrates the usage of the queue. */ 
   
 #include <iostream>
 #include <vector>
