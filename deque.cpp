@@ -1,6 +1,6 @@
 /* This code demonstrates the use of a deque (double-ended queue) in C++. 
     * It includes operations to add and remove elements from both ends of the deque. 
-    * The main function shows how to use these operations and displays the contents of the deque. 
+    * The main function shows how to use these operations and displays the contents of the deque.  
 */
 #include <iostream>
 #include <deque>
