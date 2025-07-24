@@ -3,7 +3,7 @@
 using namespace std;
   
 int main() {
-    vector<int> vec = {1,2,3};   
+    vector<int> vec = {1,2,3};    
     cout << vec[0] << endl;
      
     vector<int> vec (3,0);  //output, 0 value for 3 size vector
