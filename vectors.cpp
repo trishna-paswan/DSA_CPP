@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>     // Header file for vector to be imported.
+#include <vector>      // Header file for vector to be imported.
 using namespace std;
   
 int main() {
