@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std; 
-
+ 
 void reverseArray(int l[], int size){
     int st = 0 , end = size-1;
     while (st < end){
