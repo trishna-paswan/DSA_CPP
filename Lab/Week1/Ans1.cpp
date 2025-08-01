@@ -13,6 +13,7 @@ Input Format:
 Output Format: 
 •	Printed name and college 
 •	Marks entered and total marks displayed clearly 
+
 */
 #include <iostream>
 using namespace std;
