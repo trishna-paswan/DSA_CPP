@@ -1,5 +1,5 @@
 /*Question 2:  
- 
+  
 Problem Statement: You are assisting the election committee in automating the voter booth assignment process. Voters are assigned to booths based on the last digit of their Voter ID. If the digit is even, the voter is assigned to Booth A. If the digit is odd, the voter is assigned to Booth B. You’ve been asked to prototype this logic. 
  
  
