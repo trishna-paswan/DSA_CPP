@@ -12,7 +12,7 @@ Input Format:
 •	Name and college (hardcoded or input by user) 
 •	Two integers (marks in Math and Science) 
 Output Format: 
-•	Printed name and college 
+•	Printed name and college  
 •	Marks entered and total marks displayed clearly 
 
 */
