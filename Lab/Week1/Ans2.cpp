@@ -15,7 +15,7 @@ Output Format:
 •	“You will vote at Booth A.” 
 •	“You will vote at Booth B.” 
  
-*/
+*/ 
 #include <iostream>
 using namespace std;
 
