@@ -1,4 +1,4 @@
-/*  
+/*   
 
 Question 1: 
 Problem Statement: Imagine you're building a simple student information system for your class. Each student should be able to introduce themselves and enter their marks in two subjects. The system should then display their total score. 
