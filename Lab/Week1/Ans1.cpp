@@ -8,7 +8,7 @@ Tasks:
 •	Accept marks in two subjects 
 •	Calculate and print the total marks 
  
-Input Format: 
+Input Format:  
 •	Name and college (hardcoded or input by user) 
 •	Two integers (marks in Math and Science) 
 Output Format: 
