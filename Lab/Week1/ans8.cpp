@@ -1,6 +1,6 @@
 /*
 Question 4: 
- 
+  
 Problem Statement: You are developing a digital clock application that can display time in a standard hh:mm:ss format. You need to build the time-handling module first, which stores the time and displays it in the correct format with leading zeros (e.g., 09:05:01). 
 Task: 
 •	Create a class Time with three integer data members: hour, minute, and second 
