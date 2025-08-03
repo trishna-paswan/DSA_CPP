@@ -33,7 +33,8 @@ public:
     }
 
     // Member function to display time in hh:mm:ss format
-    // using setfill('0') and setw(2) manipulators 
+    // setw(2) = Set field width to 2 characters.
+    // setfill('0') = If number is smaller than 2 digits, fill extra space with 0.
     void displayTime() const {
         cout << setfill('0') << setw(2) << hour << ":"
              << setfill('0') << setw(2) << minute << ":"
